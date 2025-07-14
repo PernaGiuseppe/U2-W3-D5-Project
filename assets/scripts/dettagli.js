@@ -4,8 +4,8 @@ const striveKey =
 
 const eventIDPulito =
   location.search.slice(0, 23) + location.search.slice(23).split('%')[0]
-
 console.log(eventIDPulito)
+
 const parameters = new URLSearchParams(eventIDPulito)
 const eventId = parameters.get('eventId')
 
